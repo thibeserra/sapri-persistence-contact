@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mysql://adcpersist_dev.mysql.dbaas.com.br:3306/adcpersist_dev
+    username: adcpersist_dev
+    password: ***

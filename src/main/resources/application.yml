@@ -1,5 +1,3 @@
 spring:
-  datasource:
-    url: jdbc:mysql://adcpersistence.mysql.dbaas.com.br:3306/adcpersistence
-    username: adcpersistence
-    password: labsprog
+  profiles:
+    active: dev
