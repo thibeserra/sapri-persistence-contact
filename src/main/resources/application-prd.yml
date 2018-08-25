@@ -3,3 +3,9 @@ spring:
     url: jdbc:mysql://adcpersistence.mysql.dbaas.com.br:3306/adcpersistence
     username: adcpersistence
     password: ***
+    boot:
+    admin:
+      client:
+        enabled: true
+        url: https://sapri-persistence-admin.herokuapp.com
+management.endpoints.web.exposure.include: '*'
